@@ -1,56 +1,56 @@
-body{
-    font-size: 16px;
+body {
+    margin: 0;
 }
-section{
-    width: 1500px;
-    max-width: 90%;
-    margin: 0px auto;
-}
-#container{
-    width: 1400px;
-}
-.box{
-    border: 3px solid black; 
-    max-width: 50px;
-    max-height: 50px; 
+.container {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
     padding: 10px;
-    line-height: 50px; 
-    text-align: center; 
-    font-size: 1.63em;
+}
+.container h1 {
+    margin: 0;
+    text-align: center;
 }
 
-#panelOne{
-    float: left; 
+.table {
+    margin: auto;
+    width: 80%;
+    display: flex;
 }
-
-#panelTwo{
-    float: left; 
-    position: relative; 
-    top: 75px; 
+.table .element {
+    height: 60px;
+    width: 60px;
+    padding: 3px;
+    background-color: green;
+    margin-top: 2px;
+    margin-right: 2px;
+    border-radius: 8px;
 }
-
-.panelThree{
-    float: left; 
-    position: relative; 
-    top: 225px; 
+#an {
+    margin: 0;
+    padding: 0;
+    font-size: small;
 }
-
-.panelFour{
-    float: left; 
-    position: relative; 
-    top: 75px; 
+#sym{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: large;
 }
-
-#panelFive{
-    float: left; 
+#ele{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
 }
-
-#lowerContainer{
-    float: left; 
-    margin-top: 20px;
-    
-}
-
-.bottom{
-    float: left; 
+.element:hover{
+    height: 60px;
+    width: 60px;
+    padding: 3px;
+    background-color: red;
+    margin-top: 2px;
+    margin-right: 2px;
+    border-radius: 8px;
 }
